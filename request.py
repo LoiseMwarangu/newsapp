@@ -22,9 +22,6 @@ def get_news(country,category,):
             news_results = process_results(news_results_list)
     return news_results
 
-
-
-
 ### Process results
 def process_results(news_list):
     news_results = []
@@ -42,7 +39,3 @@ def process_results(news_list):
            news_results.append(news_object)
 
     return news_results
-
-##articles
-
-  ## news api search queries
