@@ -1,7 +1,7 @@
 {% import 'macros.html' as macro%}
 {% extends 'base.html'%}
 
-
+<p>No more FOMO</p>
 {% block styles%}
 {{ super() }}
 <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
@@ -10,11 +10,9 @@
 <!--contents  -->
 {%block content%}
 <br>
-<!-- health -->
+<!--health -->
 <h3 style="text-align:center;" id="h">Health</h3>
 <ul>{{macro.displayNewsList(health)}}</ul>
-<br>
-
 
 <!--business  -->
 <h3 style="text-align:center;" id="b">Business</h3>
