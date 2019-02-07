@@ -5,7 +5,12 @@ from  ..request import get_news
 # Views
 @main.route('/')
 def index():
-    ##list of  gb sub category
+    '''
+    View root page function that returns the page and and its data
+    '''
+
+    # Getting breaking news source
+
     health = get_news('gb','health')
     business = get_news('au' ,'business')
     entertainment = get_news('za','entertainment')
