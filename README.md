@@ -9,19 +9,37 @@ The program should display news sources:
 
 Input Example: On page load
 
-Output Example: Panels of various news sources is displayed per category
+Output Example: Panels of various news articles is displayed per category
 
-The program should display articles from a selected news source:
+The program should display articles from different news sources:
 
-Input Example: Click on news source
+Input Example: Click on the image in article
 
-Output Example: Redirected to a page with a list of articles from the selected source
+Output Example: Redirected to the original source page with the full story on the article
 
 The program should display original news page of the selected article:
 
-Input Example: Click on Read more... button
+Input Example: Click on navigation buttons containing business category
 
-Output Example: Redirected to the original source page with the full story on the article
+Output Example: navigated to part of page with business news
+
+Input Example: Click on navigation buttons containing entertainment category
+
+Output Example: navigated to part of page with entertainment news
+
+Input Example: Click on navigation buttons containing health category
+
+Output Example: navigated to part of page with health news
+
+Input Example: Click on navigation buttons containing sports category
+
+Output Example: navigated to part of page with sports news
+
+Input Example: Click on navigation buttons containing technology category
+
+Output Example: navigated to part of page with technology category
+
+
 
 # Setup/Installation Requirements
 To start using this project use the following commands:
