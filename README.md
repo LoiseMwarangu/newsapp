@@ -58,7 +58,7 @@ access the application on this localhost address http://127.0.0.1:5000
 You need the following to work on the project: -Python version 3.6 -Flask -Pip -virtualenv -A text Editor
 
 ## Link to Live Website
-https://News-Highlight-flask.herokuapp.com/
+https://newsheadliner.herokuapp.com/
 
 ## Technologies Used
 Python
